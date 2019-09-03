@@ -1,0 +1,45 @@
+
+body {
+    min-height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+
+    text-align: center;
+    border-radius: 8px;
+}
+
+main > header {
+    padding: 1em 0;
+    border-bottom: 1px solid #424242;
+
+
+}
+
+main > header h1 {
+
+	font-family: Helvetica;
+    font-size: 3em;
+}
+
+main > p {
+    padding: 0 16px;
+}
+
+main > footer {
+    padding: 10px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        display: block;
+        min-height: unset;
+    }
+}
