@@ -4,14 +4,13 @@ body {
     min-height: 50vh;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-size: cover;
-    background-position: center;
+
 }
 
 main {
-
+	font-family: 'IBM Plex', sans-serif;
     text-align: center;
     border-radius: 8px;
 }
@@ -19,36 +18,37 @@ main {
 main > header {
     padding: 1em 0;
     border-bottom: 1px solid #424242;
-
-
 }
 
 main > header h1 {
 
-	font-family: 'IBM Plex Sans', sans-serif;
+	
     font-size: 2em;
 }
 
 main > p {
-	font-family: 'IBM Plex', serif;
+	font-size: 28px;
     padding: 0 18px;
 
 }
 
 p > a {
-	font-family: 'IBM Plex', serif;
 	color: teal;
 	text-decoration: none;
 
 }
 
-footer > p > a {
+footer > a {
   text-decoration: none;
   font-size: 24px;
   color: black;
   padding: 8px;
 }
 
+footer > p {
+	font-size: 0.8em;
+	padding: 0 18px;
+}
 
 
 
