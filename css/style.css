@@ -18,6 +18,7 @@
 
 body {
     margin: 0;
+	justify-content: space-evenly;
 }
 
 /* Center container */
@@ -109,7 +110,7 @@ body > nav a,
 body > nav span {
     display: inline-block;
     font-size: 1rem;
-    padding: 8px;
+    padding: 10px;
     text-decoration: none !important;
 }
 
@@ -121,6 +122,7 @@ body > nav a {
 footer {
 	font-size: 0.8em;
 	padding: 4px;
+	font-size: 12px;
 }
 
 /* Image: avatar */

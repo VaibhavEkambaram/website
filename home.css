@@ -1,3 +1,10 @@
+:root {
+    /* Vanilla color vars */
+    --color-background: #FAFAFA;
+    --color-foreground: #212121;
+    --color-link: teal;
+
+}
 
 
 body {
@@ -50,6 +57,13 @@ footer > p {
 	padding: 0 18px;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #212121;
+        --color-foreground: #FAFAFA;
+        --color-link: teal;
+    }
+}
 
 
 
