@@ -15,7 +15,7 @@
     --color13: #d3869b;
     --color14: #8ec07c;
     --color15: #ebdbb2;
-    --color256: #1d2021;
+    --color256: #222641;
     --color257: #ebdbb2;
 }
 li img {
@@ -35,9 +35,6 @@ h3 img {
 }
 
 html {
-
-    
-
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
