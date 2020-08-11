@@ -53,11 +53,8 @@ body {
     background: var(--color256);
         padding: 15px;
     /*
-    using different ways of shaddows to work in other browsers
-    as some might be using IE still for some reason
-    */
+
     -webkit-box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.75);
     color: var(--color15);
     border-radius: 5px;
@@ -91,11 +88,6 @@ h2 {
     font-weight: normal;
 }
 
-
-#cat {
-    /*'float: center' does nothing btw. and cat should be an class, as its used so many times in the html*/
-    display: inline;
-}
 
 #links {
     font-size: large;
