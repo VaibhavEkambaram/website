@@ -1,0 +1,31 @@
+:root {
+    --text-colour: #0d0f1a;
+    --background-colour: #fbf6d9;
+    --theme-colour: #689d6a
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-colour: #fbf6d9;
+        --background-colour: #0d0f1a
+    }
+}
+
+html {
+    font-family: helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: var(--text-colour);
+    background: var(--background-colour)
+}
+
+#section-primary {
+    max-width: 60em;
+    margin: auto
+}
+
+a {
+    text-decoration: none;
+    font-size: medium;
+    color: var(--theme-colour)
+}

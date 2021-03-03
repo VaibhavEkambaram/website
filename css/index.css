@@ -1,0 +1,33 @@
+#section-primary-title {
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 5rem
+}
+
+#section-primary {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    font-size: 1rem
+}
+
+body, html, main {
+    margin: 0;
+    text-align: center
+}
+
+p {
+    line-height: 2em;
+    margin: 0;
+    padding: 1rem
+}
+
+a {
+    padding: .2em;
+    font-size: 1rem
+}
